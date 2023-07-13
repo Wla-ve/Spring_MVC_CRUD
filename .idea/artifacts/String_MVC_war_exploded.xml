@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="String_MVC:war exploded">
+  <artifact type="exploded-war" build-on-make="true" name="String_MVC:war exploded">
     <output-path>$PROJECT_DIR$/../../apache-tomcat-9.0.63/artifacts/String_MVC_war_exploded</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">

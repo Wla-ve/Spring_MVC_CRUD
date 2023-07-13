@@ -12,7 +12,7 @@
         <th>LastName</th>
         <th>Age</th>
     </tr>
-    <c:forEach var="emp" items="${users}">
+    <c:forEach var="us" items="${users}">
         <c:url value="http://localhost:8080/updateInfo" var="updateButton">
             <c:param name="usId" value="${us.id}"/>
         </c:url>
@@ -21,9 +21,9 @@
             <c:param name="usId" value="${us.id}"/>
         </c:url>
         <tr>
-            <td>${emp.name}</td>
-            <td>${emp.lastName}</td>
-            <td>${emp.age}</td>
+            <td>${us.name}</td>
+            <td>${us.lastName}</td>
+            <td>${us.age}</td>
             <td>
                 <input type="button" value="Update"
                        onclick="window.location.href = '${updateButton}'"/>

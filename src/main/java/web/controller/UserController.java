@@ -36,14 +36,14 @@ public class UserController {
     }
 
     @RequestMapping("/updateInfo")
-    public String update(@RequestParam("usId") int id, ModelMap model) {
+    public String update(@RequestParam("usId") Long id, ModelMap model) {
         User user = userService.getById(id);
         model.addAttribute("user", user);
         return "user";
     }
 
     @RequestMapping("/deleteUser")
-    public String deleteUsers(@PathVariable("id") int id) {
+    public String deleteUsers(@RequestParam("usId") Long id) {
         userService.delete(id);
         return "redirect:/";
     }
