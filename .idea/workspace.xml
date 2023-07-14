@@ -9,17 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b05c5df-00ae-48e4-bb10-ee7ae47a977f" name="Changes" comment="2.5">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/String_MVC_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/String_MVC_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/593e8c56-62d4-4ce1-9bc9-4226a18a7183.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/593e8c56-62d4-4ce1-9bc9-4226a18a7183.xml" afterDir="false" />
+    <list default="true" id="4b05c5df-00ae-48e4-bb10-ee7ae47a977f" name="Changes" comment="Готовая др...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/dao/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/user.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/users.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +188,7 @@
       <updated>1689143937848</updated>
       <workItem from="1689143939264" duration="11913000" />
       <workItem from="1689158142697" duration="6328000" />
-      <workItem from="1689166036984" duration="14304000" />
+      <workItem from="1689166036984" duration="23209000" />
     </task>
     <task id="LOCAL-00001" summary="2.5">
       <created>1689176647480</created>
@@ -211,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689176659624</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Готовая др...">
+      <created>1689235204285</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689235204285</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +230,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.5" />
+    <MESSAGE value="Готовая др..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Готовая др..." />
   </component>
 </project>

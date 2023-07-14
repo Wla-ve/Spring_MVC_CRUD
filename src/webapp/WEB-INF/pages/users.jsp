@@ -13,11 +13,11 @@
         <th>Age</th>
     </tr>
     <c:forEach var="us" items="${users}">
-        <c:url value="http://localhost:8080/updateInfo" var="updateButton">
+        <c:url value="updateInfo" var="updateButton">
             <c:param name="usId" value="${us.id}"/>
         </c:url>
 
-        <c:url value="http://localhost:8080/deleteUser" var="deleteButton">
+        <c:url value="deleteUser" var="deleteButton">
             <c:param name="usId" value="${us.id}"/>
         </c:url>
         <tr>

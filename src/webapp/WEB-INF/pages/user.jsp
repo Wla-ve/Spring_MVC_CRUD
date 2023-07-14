@@ -4,7 +4,6 @@
 <body>
 <h2>User Info</h2>
 <br>
-
 <form:form action="saveUser" modelAttribute="user">
 
     <form:hidden path="id"/>
